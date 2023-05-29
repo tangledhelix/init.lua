@@ -19,7 +19,6 @@ lsp.ensure_installed({
 	"lua_ls", -- lua
 	"marksman", -- markdown
 	"perlnavigator", -- perl
-	"sqlls", -- sql
 	"tsserver", -- javascript, typescript
 	"yamlls", -- yaml
 })
