@@ -7,4 +7,3 @@ require("filetype")
 require("autocmd")
 require("formatters")
 
-vim.cmd("colorscheme rose-pine")
