@@ -28,8 +28,8 @@ key("v", "K", ":m '<-2<CR>gv=gv")
 -- key("n", "<C-u>", "<C-u>zz")
 -- key("n", "<C-f>", "<C-f>zz")
 -- key("n", "<C-b>", "<C-b>zz")
-key("n", "n", "nzzzv")
-key("n", "N", "Nzzzv")
+-- key("n", "n", "nzzzv")
+-- key("n", "N", "Nzzzv")
 
 -- explorer
 key("n", "<leader>e", vim.cmd.Ex)
