@@ -34,5 +34,7 @@ key("v", "K", ":m '<-2<CR>gv=gv")
 -- explorer
 key("n", "<leader>e", vim.cmd.Ex)
 
+key("n", "<leader>z", ":set wrap!<CR>")
+
 --key("n", "<leader>w", "<cmd>write<cr>", {desc = "Save"})
 
