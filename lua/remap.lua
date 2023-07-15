@@ -14,8 +14,9 @@ end
 -- key({"n", "x"}, "k", "gk", {noremap = true})
 
 -- an Esc key when I don't feel like stretching my delicate pinky
-key("i", "kj", "<esc>", {})
-key("i", "jj", "<esc>", {})
+-- I never use these... turn them off
+-- key("i", "kj", "<esc>", {})
+-- key("i", "jj", "<esc>", {})
 
 -- use J/K in visual mode to move lines (and re-indent)
 key("v", "J", ":m '>+1<CR>gv=gv")
