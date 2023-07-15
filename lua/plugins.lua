@@ -27,10 +27,6 @@ require("lazy").setup({
         dependencies = { "nvim-lua/plenary.nvim" },
     },
 
-    { "jiaoshijie/undotree",
-        dependencies = { "nvim-lua/plenary.nvim" },
-    },
-
     "rodjek/vim-puppet",
 
     -- requires tree-sitter
