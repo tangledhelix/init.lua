@@ -42,6 +42,9 @@ opt.signcolumn = "yes"
 -- mark a column at this position (right margin indicator)
 -- opt.colorcolumn = "80"
 
+-- highlight the cursor line
+opt.cursorline = true
+
 -- encodings
 opt.encoding = "utf8"
 opt.fileencoding = "utf8"
