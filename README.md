@@ -33,6 +33,8 @@ Leader is `<space>`
 - `<leader> f s` "find string" using Telescope (uses ripgrep)
 - `<leader> f w` "find word" search for word under cursor
 - `<leader> g` open lazygit
+- `<leader> L` open lazy UI
+- `<leader> M` open mason UI
 - `<leader> p` paste from system clipboard
 - `<leader> P` paste (before cursor) from system clipboard
 - `<leader> y` copy selection to system clipboard (visual mode)
