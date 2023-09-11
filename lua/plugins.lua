@@ -74,5 +74,7 @@ require("lazy").setup({
     "sbdchd/neoformat",
 
     "tpope/vim-characterize",
+
+    "vimwiki/vimwiki",
 })
 
