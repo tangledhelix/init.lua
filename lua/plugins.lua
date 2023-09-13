@@ -76,5 +76,6 @@ require("lazy").setup({
     "tpope/vim-characterize",
 
     "vimwiki/vimwiki",
+    "ElPiloto/telescope-vimwiki.nvim",
 })
 

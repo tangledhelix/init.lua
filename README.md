@@ -31,7 +31,7 @@ Leader is `<space>`
 - `<leader> f f` "find file" using Telescope (fuzzy finder)
 - `<leader> f g` "find in git" (fuzzy finder)
 - `<leader> f s` "find string" using Telescope (uses ripgrep)
-- `<leader> f w` "find word" search for word under cursor
+- `<leader> f w` "find in wiki" search vimwiki
 - `<leader> g` open lazygit
 - `<leader> L` open lazy UI
 - `<leader> M` open mason UI
