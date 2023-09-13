@@ -23,3 +23,12 @@ autocmd({ "BufWritePre" }, {
 	command = [[%s/\s\+$//e]],
 })
 
+-- make backspace in netrw behave like in vimwiki
+local netrw_group = augroup("NetRWbinds", {})
+autocmd({ "FileType" }, {
+    pattern = "netrw",
+    group = netrw_group,
+    callback = function()
+        vim.keymap.set("n", "<BS>", "<Plug>NetrwBrowseUpDir")
+    end,
+})
