@@ -1,3 +1,12 @@
+-- Use vertical layout. I'm more likely to have tall windows side by side than always
+-- wide windows.
+require("telescope").setup{
+    defaults = {
+        layout_strategy = 'vertical',
+        layout_config = { height = 0.95 },
+    }
+}
+
 local builtin = require("telescope.builtin")
 vim.keymap.set("n", "<leader>ff", builtin.find_files, { desc = "Find File(s)" })
 vim.keymap.set("n", "<leader>fg", builtin.git_files, { desc = "Find Git file(s)" })
