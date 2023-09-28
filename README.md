@@ -23,6 +23,9 @@ Leader is `<space>`
 
 - `J` move selection down and re-indent (visual mode)
 - `K` move selection up and re-indent (visual mode)
+- `<ctrl-j>` nav to next file in Harpoon list
+- `<ctrl-k>` nav to previous file in Harpoon list
+- `<ctrl-t>` toggle terminal pane
 - `[t` and `]t` previous and next TODO comment
 - `<leader> <leader>` open Harpoon list
 - `<leader> a` add file to Harpoon list
@@ -32,6 +35,7 @@ Leader is `<space>`
 - `<leader> f g` "find in git" (fuzzy finder)
 - `<leader> f s` "find string" using Telescope (uses ripgrep)
 - `<leader> f w` "find in wiki" search vimwiki
+- `<leader> F` run Neoformat on file
 - `<leader> g` open lazygit
 - `<leader> L` open lazy UI
 - `<leader> M` open mason UI
