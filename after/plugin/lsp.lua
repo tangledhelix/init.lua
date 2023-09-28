@@ -23,6 +23,14 @@ lsp.ensure_installed({
 	"yamlls", -- yaml
 })
 
+-- better icons in the gutter
+lsp.set_sign_icons({
+  error = '✘',
+  warn = '▲',
+  hint = '⚑',
+  info = '»'
+})
+
 -- (Optional) Configure lua language server for neovim
 -- This is so it doesn't warn you of things like 'vim'
 -- not being a valid variable
