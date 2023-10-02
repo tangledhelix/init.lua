@@ -17,31 +17,39 @@ Optional, but some things won't work without them:
 - lazygit (for LazyGit `<leader>g`)
 - prettier (for NeoFormat)
 
-## Custom keybinds
+## Custom key maps
 
-Leader is `<space>`
+(I use `<space>` as my `<leader>`.)
 
-- `J` move selection down and re-indent (visual mode)
-- `K` move selection up and re-indent (visual mode)
-- `<ctrl-j>` nav to next file in Harpoon list
-- `<ctrl-k>` nav to previous file in Harpoon list
-- `<ctrl-t>` toggle terminal pane
-- `[t` and `]t` previous and next TODO comment
-- `<leader> <leader>` open Harpoon list
-- `<leader> a` add file to Harpoon list
-- `<leader> e` open file explorer
-- `<leader> f a` "find again" opens Telescope with same search as last time
-- `<leader> f f` "find file" using Telescope (fuzzy finder)
-- `<leader> f g` "find in git" (fuzzy finder)
-- `<leader> f s` "find string" using Telescope (uses ripgrep)
-- `<leader> f w` "find in wiki" search vimwiki
-- `<leader> F` run Neoformat on file
-- `<leader> g` open lazygit
-- `<leader> L` open lazy UI
-- `<leader> M` open mason UI
-- `<leader> p` paste from system clipboard
-- `<leader> P` paste (before cursor) from system clipboard
-- `<leader> y` copy selection to system clipboard (visual mode)
-- `<leader> y<motion>` copy to system clipboard
-- `<leader> z` toggle wordwrap mode
+| Mode   | Map                   | Plugin(s)          | Description                                       |
+|--------|-----------------------|--------------------|---------------------------------------------------|
+| normal | `<ctrl-j>`            | harpoon            | jump to next file in Harpoon list                 |
+| normal | `<ctrl-k>`            | harpoon            | jump to previous file in Harpoon list             |
+| normal | `<ctrl-t>`            | fterm              | toggle terminal pane                              |
+| normal | `[t`, `]t`            | todo-comments      | jump to previous or next TODO/FIX/etc comment     |
+| normal | `<leader><leader>`    | harpoon            | open Harpoon window                               |
+| normal | `<leader> a`          | harpoon            | add current file/buffer to Harpoon list           |
+| normal | `<leader> e`          |                    | open file explorer                                |
+| normal | `<leader> fa`         | telescope          | "find again" - open with same search as last time |
+| normal | `<leader> fb`         | telescope          | "find buffer"                                     |
+| normal | `<leader> fb`         | telescope          | "find command"                                    |
+| normal | `<leader> ff`         | telescope          | "find file"                                       |
+| normal | `<leader> fg`         | telescope          | "find in git" -  honors .gitignore                |
+| normal | `<leader> fhc`        | telescope          | "find in command history"                         |
+| normal | `<leader> fhs`        | telescope          | "find in search history"                          |
+| normal | `<leader> fj`         | telescope          | "find in jumplist"                                |
+| normal | `<leader> fm`         | telescope          | "find mark"                                       |
+| normal | `<leader> fs`         | telescope          | "find string" (requires ripgrep)                  |
+| normal | `<leader> fw`         | telescope, vimwiki | "find in wiki"                                    |
+| normal | `<leader> F`          | neoformat          | run Neoformat on file (requires prettier)         |
+| normal | `<leader> g`          | lazygit            | open lazygit UI (requires lazygit)                |
+| normal | `<leader> L`          | lazy               | open lazy UI (plugin manager)                     |
+| normal | `<leader> M`          | mason              | open mason (LSP, linter, formatter, DAP manager)  |
+| normal | `<leader> p`          |                    | paste from system clipboard                       |
+| normal | `<leader> P`          |                    | paste (before cursor) from system clipboard       |
+| normal | `<leader> y <motion>` |                    | copy to system clipboard                          |
+| normal | `<leader> z`          |                    | toggle wrap mode                                  |
+| visual | `J`                   |                    | move selection down, with re-indent               |
+| visual | `K`                   |                    | move selection up, with re-indent                 |
+| visual | `<leader> y`          |                    | copy selection to system clipboard                |
 
