@@ -13,6 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
     { "rose-pine/neovim", name = "rose-pine" },
+    { "shaunsingh/nord.nvim", name = "nord" },
 
     -- requires ripgrep
     { "nvim-telescope/telescope.nvim", tag = "0.1.1",
