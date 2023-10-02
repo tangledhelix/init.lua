@@ -40,6 +40,7 @@ Optional, but some things won't work without them:
 | normal | `<leader> fj`         | telescope          | "find in jumplist"                                |
 | normal | `<leader> fm`         | telescope          | "find mark"                                       |
 | normal | `<leader> fs`         | telescope          | "find string" (requires ripgrep)                  |
+| normal | `<leader> ft`         | telescope          | "find theme" (colorscheme)                        |
 | normal | `<leader> fw`         | telescope, vimwiki | "find in wiki"                                    |
 | normal | `<leader> F`          | neoformat          | run Neoformat on file (requires prettier)         |
 | normal | `<leader> g`          | lazygit            | open lazygit UI (requires lazygit)                |

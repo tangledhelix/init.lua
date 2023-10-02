@@ -21,4 +21,5 @@ vim.keymap.set("n", "<leader>fhs", builtin.search_history, { desc = "Find in Sea
 vim.keymap.set("n", "<leader>fj", builtin.jumplist, { desc = "Find in jumplist" })
 vim.keymap.set("n", "<leader>fm", builtin.marks, { desc = "Find Mark" })
 vim.keymap.set("n", "<leader>fs", builtin.live_grep, { desc = "Find String" })
+vim.keymap.set("n", "<leader>ft", builtin.colorscheme, { desc = "Find Colorscheme" })
 vim.keymap.set("n", "<leader>fw", wiki.live_grep, { desc = "Find in Wiki" })
