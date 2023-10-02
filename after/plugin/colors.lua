@@ -1,6 +1,6 @@
 
 -- not sure yet about this, what does it actually do?
--- vim.g.nord_contrast = false
+vim.g.nord_contrast = false
 
 -- show borders for splits?
 vim.g.nord_borders = true
