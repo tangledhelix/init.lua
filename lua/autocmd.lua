@@ -16,19 +16,25 @@ autocmd("TextYankPost", {
 })
 
 -- delete trailing whitespace on lines, when saving.
+-- Except if it's markdown, then don't. Markdown can use EOL spaces
+-- for paragraph formatting, which I want sometimes.
 local wsclean_group = augroup("WhspClean", {})
 autocmd({ "BufWritePre" }, {
 	group = wsclean_group,
 	pattern = "*",
-	command = [[%s/\s\+$//e]],
+	callback = function()
+		if vim.bo.filetype ~= "markdown" then
+			vim.cmd([[%s/\s\+$//e]])
+		end
+	end,
 })
 
 -- make backspace in netrw behave like in vimwiki
 local netrw_group = augroup("NetRWbinds", {})
 autocmd({ "FileType" }, {
-    pattern = "netrw",
-    group = netrw_group,
-    callback = function()
-        vim.keymap.set("n", "<BS>", "<Plug>NetrwBrowseUpDir")
-    end,
+	pattern = "netrw",
+	group = netrw_group,
+	callback = function()
+		vim.keymap.set("n", "<BS>", "<Plug>NetrwBrowseUpDir")
+	end,
 })
