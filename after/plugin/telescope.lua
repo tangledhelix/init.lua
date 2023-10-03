@@ -13,7 +13,6 @@ require("telescope").load_extension("vimwiki")
 local builtin = require("telescope.builtin")
 local wiki = require("telescope").extensions.vimwiki
 
-vim.keymap.set("n", "<leader>f.", builtin.current_buffer_fuzzy_find, { desc = "Find in current buffer" })
 vim.keymap.set("n", "<leader>fa", builtin.resume, { desc = "Find Again (open picker in previous state)" })
 vim.keymap.set("n", "<leader>fb", builtin.buffers, { desc = "Find Buffer" })
 vim.keymap.set("n", "<leader>fc", builtin.commands, { desc = "Find Command" })

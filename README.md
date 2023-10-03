@@ -30,7 +30,6 @@ Optional, but some things won't work without them:
 | normal | `<leader><leader>`    | harpoon            | open Harpoon window                               |
 | normal | `<leader> a`          | harpoon            | add current file/buffer to Harpoon list           |
 | normal | `<leader> e`          |                    | open file explorer                                |
-| normal | `<leader> f.`         | telescope          | "find in current buffer"                          |
 | normal | `<leader> fa`         | telescope          | "find again" - open with same search as last time |
 | normal | `<leader> fb`         | telescope          | "find buffer"                                     |
 | normal | `<leader> fc`         | telescope          | "find command"                                    |
