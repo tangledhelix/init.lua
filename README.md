@@ -32,7 +32,7 @@ Optional, but some things won't work without them:
 | normal | `<leader> e`          |                    | open file explorer                                |
 | normal | `<leader> fa`         | telescope          | "find again" - open with same search as last time |
 | normal | `<leader> fb`         | telescope          | "find buffer"                                     |
-| normal | `<leader> fb`         | telescope          | "find command"                                    |
+| normal | `<leader> fc`         | telescope          | "find command"                                    |
 | normal | `<leader> ff`         | telescope          | "find file"                                       |
 | normal | `<leader> fg`         | telescope          | "find in git" -  honors .gitignore                |
 | normal | `<leader> fhc`        | telescope          | "find in command history"                         |
