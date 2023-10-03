@@ -30,9 +30,11 @@ Optional, but some things won't work without them:
 | normal | `<leader><leader>`    | harpoon            | open Harpoon window                               |
 | normal | `<leader> a`          | harpoon            | add current file/buffer to Harpoon list           |
 | normal | `<leader> e`          |                    | open file explorer                                |
+| normal | `<leader> f.`         | telescope          | "find in current buffer"                          |
 | normal | `<leader> fa`         | telescope          | "find again" - open with same search as last time |
 | normal | `<leader> fb`         | telescope          | "find buffer"                                     |
 | normal | `<leader> fc`         | telescope          | "find command"                                    |
+| normal | `<leader> fd`         | telescope          | "find in diagnostics"                             |
 | normal | `<leader> ff`         | telescope          | "find file"                                       |
 | normal | `<leader> fg`         | telescope          | "find in git" -  honors .gitignore                |
 | normal | `<leader> fhc`        | telescope          | "find in command history"                         |
@@ -40,7 +42,7 @@ Optional, but some things won't work without them:
 | normal | `<leader> fj`         | telescope          | "find in jumplist"                                |
 | normal | `<leader> fm`         | telescope          | "find mark"                                       |
 | normal | `<leader> fs`         | telescope          | "find string" (requires ripgrep)                  |
-| normal | `<leader> ft`         | telescope          | "find theme" (colorscheme)                        |
+| normal | `<leader> ft`         | telescope          | "find in tree-sitter"                             |
 | normal | `<leader> fw`         | telescope, vimwiki | "find in wiki"                                    |
 | normal | `<leader> F`          | neoformat          | run Neoformat on file (requires prettier)         |
 | normal | `<leader> g`          | lazygit            | open lazygit UI (requires lazygit)                |
