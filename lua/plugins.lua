@@ -12,6 +12,7 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
+
     -- color schemes
     { "rose-pine/neovim", name = "rose-pine" },
     { "shaunsingh/nord.nvim", name = "nord" },
@@ -30,25 +31,25 @@ require("lazy").setup({
         dependencies = { "nvim-lua/plenary.nvim" },
     },
 
-    "rodjek/vim-puppet",
+    { "rodjek/vim-puppet" },
 
     -- requires tree-sitter
     { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate", },
     "nvim-treesitter/nvim-treesitter-context",
 
-    "windwp/nvim-autopairs",
+    { "windwp/nvim-autopairs" },
 
     { "kylechui/nvim-surround", version = "*", },
 
-    "terrortylor/nvim-comment",
+    { "terrortylor/nvim-comment" },
 
-    "numToStr/FTerm.nvim",
+    { "numToStr/FTerm.nvim" },
 
     { "nvim-lualine/lualine.nvim",
         dependencies = { "kyazdani42/nvim-web-devicons", lazy = true },
     },
 
-    "kdheepak/lazygit.nvim",
+    { "kdheepak/lazygit.nvim" },
 
     { "VonHeikemen/lsp-zero.nvim",
         branch = "v2.x",
@@ -72,13 +73,14 @@ require("lazy").setup({
         },
     },
 
-    "lewis6991/gitsigns.nvim",
+    { "lewis6991/gitsigns.nvim" },
 
-    "sbdchd/neoformat",
+    { "sbdchd/neoformat" },
 
-    "tpope/vim-characterize",
+    { "tpope/vim-characterize" },
 
-    "vimwiki/vimwiki",
-    "ElPiloto/telescope-vimwiki.nvim",
+    { "vimwiki/vimwiki" },
+    { "ElPiloto/telescope-vimwiki.nvim" },
+
 })
 
