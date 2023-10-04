@@ -32,6 +32,7 @@ opt.smartcase = true
 
 -- good colors in TUI
 opt.termguicolors = true
+opt.background = "dark"
 
 -- don't get cursor too close to edge of viewport on scroll
 opt.scrolloff = 4
