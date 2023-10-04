@@ -33,6 +33,7 @@ Optional, but some things won't work without them:
 | normal | `<leader> fa`         | telescope          | "find again" - open with same search as last time |
 | normal | `<leader> fb`         | telescope          | "find buffer"                                     |
 | normal | `<leader> fc`         | telescope          | "find command"                                    |
+| normal | `<leader> fC`         | telescope          | "find Colorscheme"                                |
 | normal | `<leader> fd`         | telescope          | "find in diagnostics"                             |
 | normal | `<leader> ff`         | telescope          | "find file"                                       |
 | normal | `<leader> fg`         | telescope          | "find in git" -  honors .gitignore                |
