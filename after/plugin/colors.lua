@@ -13,5 +13,6 @@ vim.g.nord_cursorline_transparent = true
 -- current DEFAULT colorscheme
 -- vim.cmd("colorscheme nord")
 -- vim.cmd("colorscheme rose-pine")
-vim.cmd("colorscheme nightfox")
+-- vim.cmd("colorscheme nightfox")
+vim.cmd("colorscheme melange")
 

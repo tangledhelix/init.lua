@@ -17,6 +17,7 @@ require("lazy").setup({
     { "rose-pine/neovim", name = "rose-pine" },
     { "shaunsingh/nord.nvim", name = "nord" },
     { "EdenEast/nightfox.nvim", name = "nightfox" },
+    { "savq/melange-nvim", name = "melange" },
 
     -- requires ripgrep
     { "nvim-telescope/telescope.nvim", tag = "0.1.1",
