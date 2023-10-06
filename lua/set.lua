@@ -7,7 +7,7 @@ opt.guicursor = ""
 -- opt.mouse = ""
 
 -- line numbering
-opt.number = true
+opt.number = false
 opt.relativenumber = true
 
 -- indentation
