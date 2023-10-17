@@ -27,3 +27,5 @@ vim.keymap.set("n", "<leader>fm", builtin.marks, { desc = "Find Mark" })
 vim.keymap.set("n", "<leader>fs", builtin.live_grep, { desc = "Find String" })
 vim.keymap.set("n", "<leader>ft", builtin.treesitter, { desc = "Find in tree-sitter" })
 vim.keymap.set("n", "<leader>fw", wiki.live_grep, { desc = "Find in Wiki" })
+-- this triggers a deprecation warning in nvim 0.9+
+-- vim.keymap.set("n", "<leader>f.", builtin.current_buffer_fuzzy_find, { desc = "Find in current buffer" })
