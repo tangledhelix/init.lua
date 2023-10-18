@@ -83,5 +83,14 @@ require("lazy").setup({
     { "vimwiki/vimwiki" },
     { "ElPiloto/telescope-vimwiki.nvim" },
 
+    -- DAP
+    { "mfussenegger/nvim-dap" },
+    { "rcarriga/nvim-dap-ui" },
+    { "theHamsta/nvim-dap-virtual-text" },
+    { "nvim-telescope/telescope-dap.nvim" },
+
+    -- DAP language adapters
+    { "mfussenegger/nvim-dap-python" },
+
 })
 
