@@ -42,6 +42,7 @@ Optional, but some things won't work without them:
 | normal | `<leader> dr`         | dap                | debug: open REPL                                            |
 | normal | `<leader> ds`         | dap                | debug: view current scopes in a centered floating window    |
 | normal | `<leader> e`          |                    | open file explorer                                          |
+| normal | `<leader> f.`         | telescope          | "find <here>" - fuzzy find in this buffer                   |
 | normal | `<leader> fa`         | telescope          | "find again" - open with same search as last time           |
 | normal | `<leader> fb`         | telescope          | "find buffer"                                               |
 | normal | `<leader> fc`         | telescope          | "find command"                                              |
