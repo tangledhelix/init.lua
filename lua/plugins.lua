@@ -20,7 +20,7 @@ require("lazy").setup({
     { "savq/melange-nvim", name = "melange" },
 
     -- requires ripgrep
-    { "nvim-telescope/telescope.nvim", tag = "0.1.1",
+    { "nvim-telescope/telescope.nvim", tag = "0.1.3",
         dependencies = { "nvim-lua/plenary.nvim" },
     },
 
