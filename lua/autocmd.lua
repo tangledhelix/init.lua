@@ -38,3 +38,13 @@ autocmd({ "BufWritePre" }, {
 -- 		vim.keymap.set("n", "<BS>", "<Plug>NetrwBrowseUpDir")
 -- 	end,
 -- })
+
+local qfset_group = augroup("QuickFixSettings", {})
+autocmd({ "FileType" }, {
+	group = qfset_group,
+	pattern = "qf",
+	callback = function()
+                vim.opt_local.number = true
+                vim.opt_local.relativenumber = false
+	end,
+})
