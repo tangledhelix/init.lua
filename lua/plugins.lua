@@ -19,39 +19,47 @@ require("lazy").setup({
     { "EdenEast/nightfox.nvim", name = "nightfox" },
     { "savq/melange-nvim", name = "melange" },
 
-    -- requires ripgrep
+    -- telescope: search-finder system
+    -- Note: "live_grep" requires ripgrep program is installed
     { "nvim-telescope/telescope.nvim", tag = "0.1.3",
         dependencies = { "nvim-lua/plenary.nvim" },
     },
 
+    -- awesome magic
     { "ThePrimeagen/harpoon",
         dependencies = { "nvim-lua/plenary.nvim" },
     },
 
+    -- comments
+    { "terrortylor/nvim-comment" },
     { "folke/todo-comments.nvim",
         dependencies = { "nvim-lua/plenary.nvim" },
     },
 
     { "rodjek/vim-puppet" },
 
-    -- requires tree-sitter
+    -- tree-sitter, AST modeling to help highlighter & more
+    -- requires tree-sitter program is installed
     { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate", },
-    "nvim-treesitter/nvim-treesitter-context",
+    { "nvim-treesitter/nvim-treesitter-context" },
 
+    -- management of pairings / surroundings (parens, quotes, braces, ...)
     { "windwp/nvim-autopairs" },
-
     { "kylechui/nvim-surround", version = "*", },
 
-    { "terrortylor/nvim-comment" },
-
+    -- pop-up terminal
     { "numToStr/FTerm.nvim" },
 
+    -- status line & gutter
     { "nvim-lualine/lualine.nvim",
         dependencies = { "kyazdani42/nvim-web-devicons", lazy = true },
     },
+    { "lewis6991/gitsigns.nvim" },
 
+    -- git UI
     { "kdheepak/lazygit.nvim" },
 
+    -- LSP / autocomplete subsystem
     { "VonHeikemen/lsp-zero.nvim",
         branch = "v2.x",
         dependencies = {
@@ -74,12 +82,14 @@ require("lazy").setup({
         },
     },
 
-    { "lewis6991/gitsigns.nvim" },
-
+    -- formatter
     { "sbdchd/neoformat" },
 
+    -- weird gadget you almost never need but when you do need it,
+    -- it's super handy to have. also tpope is the goat.
     { "tpope/vim-characterize" },
 
+    -- vimwiki
     { "vimwiki/vimwiki" },
     { "ElPiloto/telescope-vimwiki.nvim" },
 
