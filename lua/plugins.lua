@@ -45,6 +45,7 @@ require("lazy").setup({
 
     -- management of pairings / surroundings (parens, quotes, braces, ...)
     { "windwp/nvim-autopairs" },
+    { "RRethy/nvim-treesitter-endwise" },
     { "kylechui/nvim-surround", version = "*", },
 
     -- pop-up terminal
