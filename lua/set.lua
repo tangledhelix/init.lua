@@ -1,7 +1,7 @@
 local opt = vim.opt
 
 -- uncomment to have nvim not change the cursor style (thin, block, ...)
-opt.guicursor = ""
+-- opt.guicursor = ""
 
 -- disable mouse support (default is 'nvi')
 -- opt.mouse = ""
