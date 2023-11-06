@@ -28,3 +28,6 @@ vim.keymap.set("n", "<leader>fs", builtin.live_grep, { desc = "Find String" })
 vim.keymap.set("n", "<leader>ft", builtin.treesitter, { desc = "Find in tree-sitter" })
 vim.keymap.set("n", "<leader>fw", wiki.live_grep, { desc = "Find in Wiki" })
 vim.keymap.set("n", "<leader>f.", builtin.current_buffer_fuzzy_find, { desc = "Find in current buffer" })
+
+vim.keymap.set("n", "gr", builtin.lsp_references, { desc = "Open a telescope window with references"})
+
