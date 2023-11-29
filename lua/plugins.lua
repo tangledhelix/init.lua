@@ -103,5 +103,10 @@ require("lazy").setup({
     -- DAP language adapters
     { "mfussenegger/nvim-dap-python" },
 
+    -- REST client
+    { "rest-nvim/rest.nvim",
+        dependencies = { "nvim-lua/plenary.nvim" }
+    }
+
 })
 
