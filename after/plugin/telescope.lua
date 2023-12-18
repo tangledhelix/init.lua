@@ -3,12 +3,12 @@ require("telescope").load_extension("vimwiki")
 
 -- Use vertical layout. I'm more likely to have tall windows side by side than always
 -- wide windows.
--- require("telescope").setup{
---     defaults = {
---         layout_strategy = 'vertical',
---         layout_config = { height = 0.95, width = 0.95 },
---     }
--- }
+require("telescope").setup{
+    defaults = {
+        layout_strategy = 'vertical',
+        layout_config = { height = 0.95, width = 0.95 },
+    }
+}
 
 local builtin = require("telescope.builtin")
 local wiki = require("telescope").extensions.vimwiki
