@@ -27,6 +27,7 @@ require("lazy").setup({
 
     -- awesome magic
     { "ThePrimeagen/harpoon",
+        branch = "harpoon2",
         dependencies = { "nvim-lua/plenary.nvim" },
     },
 
