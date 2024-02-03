@@ -91,23 +91,19 @@ require("lazy").setup({
     -- it's super handy to have. also tpope is the goat.
     { "tpope/vim-characterize" },
 
-    -- vimwiki
-    -- { "vimwiki/vimwiki" },
-    -- { "ElPiloto/telescope-vimwiki.nvim" },
-
     -- DAP
-    -- { "mfussenegger/nvim-dap" },
-    -- { "rcarriga/nvim-dap-ui" },
-    -- { "theHamsta/nvim-dap-virtual-text" },
-    -- { "nvim-telescope/telescope-dap.nvim" },
+    { "mfussenegger/nvim-dap" },
+    { "rcarriga/nvim-dap-ui" },
+    { "theHamsta/nvim-dap-virtual-text" },
+    { "nvim-telescope/telescope-dap.nvim" },
 
     -- DAP language adapters
-    -- { "mfussenegger/nvim-dap-python" },
+    { "mfussenegger/nvim-dap-python" },
 
     -- REST client
-    -- { "rest-nvim/rest.nvim",
-    --     dependencies = { "nvim-lua/plenary.nvim" }
-    -- }
+    { "rest-nvim/rest.nvim",
+        dependencies = { "nvim-lua/plenary.nvim" }
+    }
 
 })
 

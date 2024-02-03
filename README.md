@@ -56,7 +56,6 @@ Optional, but some things won't work without them:
 | normal | `<leader> fm`         | telescope          | "find mark"                                                 |
 | normal | `<leader> fs`         | telescope          | "find string" (requires ripgrep)                            |
 | normal | `<leader> ft`         | telescope          | "find in tree-sitter"                                       |
-| normal | `<leader> fw`         | telescope, vimwiki | "find in wiki"                                              |
 | normal | `<leader> F`          | neoformat          | run Neoformat on file (requires prettier)                   |
 | normal | `<leader> g`          | lazygit            | open lazygit UI (requires lazygit)                          |
 | normal | `<leader> L`          | lazy               | open lazy UI (plugin manager)                               |
