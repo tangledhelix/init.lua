@@ -63,9 +63,6 @@ Optional, but some things won't work without them:
 | normal | `<leader> M`          | mason              | open mason (LSP, linter, formatter, DAP manager)            |
 | normal | `<leader> p`          |                    | paste from system clipboard                                 |
 | normal | `<leader> P`          |                    | paste (before cursor) from system clipboard                 |
-| normal | `<leader> rr`         | rest-nvim          | execute REST query under cursor                             |
-| normal | `<leader> rp`         | rest-nvim          | preview REST query under cursor                             |
-| normal | `<leader> ra`         | rest-nvim          | execute (again) REST query under cursor                     |
 | normal | `<leader> y <motion>` |                    | copy to system clipboard                                    |
 | normal | `<leader> z`          |                    | toggle wrap mode                                            |
 | visual | `J`                   |                    | move selection down, with re-indent                         |
