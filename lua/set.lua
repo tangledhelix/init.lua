@@ -59,4 +59,3 @@ opt.swapfile = false
 opt.backup = false
 opt.undofile = true
 
-vim.g.vimwiki_automatic_nested_syntaxes = 1

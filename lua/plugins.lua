@@ -91,10 +91,6 @@ require("lazy").setup({
     -- it's super handy to have. also tpope is the goat.
     { "tpope/vim-characterize" },
 
-    -- vimwiki
-    { "vimwiki/vimwiki" },
-    { "ElPiloto/telescope-vimwiki.nvim" },
-
     -- DAP
     { "mfussenegger/nvim-dap" },
     { "rcarriga/nvim-dap-ui",
