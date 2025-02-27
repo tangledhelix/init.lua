@@ -14,9 +14,9 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
 
     -- color schemes
-    -- { "rose-pine/neovim", name = "rose-pine" },
-    -- { "shaunsingh/nord.nvim", name = "nord" },
-    -- { "EdenEast/nightfox.nvim", name = "nightfox" },
+    { "rose-pine/neovim", name = "rose-pine" },
+    { "shaunsingh/nord.nvim", name = "nord" },
+    { "EdenEast/nightfox.nvim", name = "nightfox" },
     { "savq/melange-nvim", name = "melange" },
 
     -- telescope: search-finder system
